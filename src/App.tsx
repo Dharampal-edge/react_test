@@ -1,10 +1,9 @@
-import './App.css';
-import MouseHoverComponent from './components/MouseHoverComponent';
+import MouseView from './Views/MouseView';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-     <MouseHoverComponent />
+      <MouseView />
     </div>
   );
 }
